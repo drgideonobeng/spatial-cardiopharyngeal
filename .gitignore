@@ -1,0 +1,16 @@
+# Nextflow execution artifacts
+.nextflow/
+.nextflow.log*
+work/
+
+# Data and Results directories (Do not push raw data or heavy objects)
+data/
+results/
+bin/*_temp.h5seurat
+figures/
+
+# OS/IDE specific files
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
