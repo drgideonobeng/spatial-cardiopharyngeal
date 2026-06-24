@@ -1,0 +1,36 @@
+# =============================================================================
+# params/samples.yml
+# =============================================================================
+# Master Design Matrix for spatial-cardiopharyngeal development (E9.5 Cohort)
+# All structural properties flow dynamically through Nextflow to downstream tools.
+
+samples:
+  - id: "E9_5_rep1_201112_02"
+    timepoint: "E9.5"
+    replicate: "rep1"
+    puck_id: "201112_02"
+    genotype: "WT"
+    tissue: "embryo"
+    assay: "Slide-seqV2"
+    organism: "Mus musculus"
+    target_cells: 16931
+
+  - id: "E9_5_rep2_201104_39"
+    timepoint: "E9.5"
+    replicate: "rep2"
+    puck_id: "201104_39"
+    genotype: "WT"
+    tissue: "embryo"
+    assay: "Slide-seqV2"
+    organism: "Mus musculus"
+    target_cells: 17628
+
+  - id: "E9_5_rep3_201104_31"
+    timepoint: "E9.5"
+    replicate: "rep3"
+    puck_id: "201104_31"
+    genotype: "WT"
+    tissue: "embryo"
+    assay: "Slide-seqV2"
+    organism: "Mus musculus"
+    target_cells: 15516
