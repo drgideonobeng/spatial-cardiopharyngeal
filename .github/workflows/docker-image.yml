@@ -29,3 +29,4 @@ jobs:
         push: true
         tags: |
           ${{ secrets.DOCKERHUB_USERNAME }}/spatial-omics:latest
+          ${{ secrets.DOCKERHUB_USERNAME }}/spatial-omics:${{ github.sha }}
